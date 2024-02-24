@@ -1,12 +1,13 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
+  const licenseURLify = answers.license.replace(' ', '_');
   return `# ${answers.title}
 
   # Description
 
   ${answers.description}
 
-  ![License](https://img.shields.io/badge/license-${answers.license}-7cff00)
+  ![License](https://img.shields.io/badge/license-${licenseURLify}-7cff00)
 
   ## Table of Contents
 

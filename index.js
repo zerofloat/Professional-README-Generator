@@ -39,7 +39,7 @@ const questions =
             type: 'list',
             name: 'license',
             message: 'What license should your application have?',
-            choices: ['Apache', 'GNU', 'MIT', 'BSD_2', 'BSD_3', 'Boost', 'CC_Zero', 'Eclipse', 'GNU_Affero_GPL_v3', 'GNU_GPL_v2', 'GNU_Lesser_GPL_v2.1', 'Mozilla', 'Unlicense']
+            choices: ['Apache', 'GNU', 'MIT', 'BSD 2', 'BSD 3', 'Boost', 'CC Zero', 'Eclipse', 'GNU Affero GPL v3', 'GNU GPL v2', 'GNU Lesser GPL v2.1', 'Mozilla', 'Unlicense']
         },
         {
             type: 'input',
