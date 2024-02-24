@@ -40,7 +40,7 @@ function generateMarkdown(answers) {
 
   ## Questions
 
-  If you have any questions regarding ${answers.title}, feel free to reach out to me via [email](mailto:${answers.email}) or [GitHub](http://github.com/${answers.github}).
+  If you have any questions regarding ${answers.title}, feel free to reach out to me via [email](mailto:${answers.email}) or [GitHub](https://github.com/${answers.github}).
 
 `;
 }
