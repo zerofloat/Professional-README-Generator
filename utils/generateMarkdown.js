@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
-  const licenseURLify = answers.license.replace(' ', '_');
+  const licenseURLify = answers.license.replaceAll(' ', '_');
   return `# ${answers.title}
 
   # Description
@@ -13,8 +13,10 @@ function generateMarkdown(answers) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
   - [License](#license)
+  - [Questions](#questions)
 
   ## Installation
 
