@@ -4,9 +4,8 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = () =>
-    inquirer.prompt([
-        {
+const questions =
+        [{
             type: 'input',
             name: 'title',
             message: 'What is the name of your application?'
@@ -29,7 +28,12 @@ const questions = () =>
         {
             type: 'input',
             name: 'contribution',
-            message: 'how can we contribute to your application?'
+            message: 'How can we contribute to your application?'
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'How can we run the test(s) for your application?'
         },
         {
             type: 'list',
@@ -37,8 +41,17 @@ const questions = () =>
             message: 'What license should your application have?',
             choices: ['Apache', 'GNU', 'MIT', 'BSD 2', 'BSD 3', 'Boost', 'CC Zero', 'Eclipse', 'GNU Affero GPL v3', 'GNU GPL v2', 'GNU Lesser GPL v2.1', 'Mozilla', 'Unlicense']
         },
-    ]
-    );
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?'
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'What is your GitHub username?'
+        }
+    ];
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -46,6 +59,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions);
 
 }
 

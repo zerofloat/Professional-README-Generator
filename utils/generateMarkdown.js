@@ -25,6 +25,18 @@ function generateMarkdown(data) {
 
   ${data.contribution} 
 
+  ## Tests
+
+  ${data.tests}
+
+  ## License
+
+  ${data.license}
+
+  ## Questions
+
+  If you have any questions regarding ${data.title}, feel free to reach out to me via [email](${data.email}) or [GitHub](${data.github}).
+
 `;
 }
 
