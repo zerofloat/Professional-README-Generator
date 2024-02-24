@@ -21,7 +21,7 @@
 
   ## Usage
 
-  once the dependencies are installed, invoke the application by typing node index.js
+  Once the dependencies are installed, invoke the application by typing node index.js
 
   ## Contributing
 
