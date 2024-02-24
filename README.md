@@ -21,7 +21,7 @@
 
   ## Usage
 
-  once the dependencies are installed, invoke the application by typing node index.js
+  Once the dependencies are installed, invoke the application by typing node index.js
 
   ## Contributing
 
@@ -38,4 +38,8 @@
   ## Questions
 
   If you have any questions regarding Professional README Generator, feel free to reach out to me via [email](mailto:hello@goodbye.co) or [GitHub](https://github.com/zerofloat).
+
+  ## Video Walkthrough
+  
+  https://drive.google.com/file/d/1n9uebos9npTOLnz3SFSBB7v5GsaOJqH3/view?usp=sharing
 
